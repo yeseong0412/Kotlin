@@ -1,11 +1,11 @@
-package org.example
+package etc
 
 class Ramda1 {
 
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            b(::a)
+            b(Companion::a)
         }
 
         private fun a(str: String) {

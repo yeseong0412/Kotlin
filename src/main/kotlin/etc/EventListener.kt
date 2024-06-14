@@ -1,4 +1,4 @@
-package org.example
+package etc
 
 fun main(){
     EventPrinter().start()
@@ -19,7 +19,7 @@ class Counter(var listener: EventListener1){
     }
 }
 
-class EventPrinter: EventListener1{
+class EventPrinter: EventListener1 {
     override fun onEvent(counter: Int) {
         print("$counter-")
     }

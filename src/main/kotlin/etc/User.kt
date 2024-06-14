@@ -1,4 +1,4 @@
-package org.example
+package org.example.etc
 
 interface User {
     val nickName: String

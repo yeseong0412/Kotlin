@@ -1,4 +1,4 @@
-package org.example
+package org.example.etc
 
 class Ts1 {
     companion object{

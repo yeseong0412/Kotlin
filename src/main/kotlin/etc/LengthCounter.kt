@@ -1,4 +1,4 @@
-package org.example
+package etc
 
 class LengthCounter {
     var counter: Int = 0

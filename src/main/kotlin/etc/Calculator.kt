@@ -1,4 +1,4 @@
-package org.example
+package etc
 
 class Calculator (var a:Int , var b:Int){
     fun add() = println("답은 ${a+b}입니다. ")
